@@ -234,6 +234,11 @@ canBeDismissedByUser:(BOOL)dismissingEnabled
                 currentString = @"warning";
                 break;
             }
+            case TSMessageNotificationTypeWonderMessage:
+            {
+                currentString = @"wonderMessage";
+                break;
+            }
 
             default:
                 break;
